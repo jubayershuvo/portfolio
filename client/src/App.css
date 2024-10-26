@@ -1,0 +1,17 @@
+/* Custom smooth scroll behavior */
+.custom-scroll {
+    scroll-behavior: smooth;
+    /* You can also add custom timing if needed */
+  }
+  
+  /* Smoother transitions using JavaScript libraries might be needed for full control */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Fine-tuning smooth scroll on specific elements (optional) */
+  body, .custom-scroll {
+    /* Make scrolling more responsive with smoother acceleration */
+    transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+  }
+  
