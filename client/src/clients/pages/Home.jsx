@@ -20,7 +20,7 @@ function Home({ handleScroll }) {
       <div className="max-w-4xl mx-auto">
         <div
           onScroll={handleScroll}
-          className="h-screen custom-scrollbar overflow-y-scroll snap-y snap-mandatory space-y-4 scroll-smooth"
+          className="h-screen md:p-4 custom-scrollbar overflow-y-scroll snap-y snap-mandatory space-y-4 scroll-smooth"
         >
           {/* Page 1 */}
           <section className="h-screen snap-start flex items-center justify-center">
@@ -208,16 +208,16 @@ function Home({ handleScroll }) {
               </div>
             </div>
           </section>
-          {/* Page 3 */}
+          {/* Page 4 */}
           <section className="h-screen snap-start flex items-center justify-center">
             <div className="h-screen relative w-full md:w-full bg-cover bg-right mx-auto">
-              <div className="text-white text-center mt-5 md:mt-10">
+              <div className="text-white text-center px-8 md:px-0 mt-5 md:mt-10">
                 <h1 className="text-4xl font-bold border-b-2 inline-block border-green-400 text-red-300">
                   About
                 </h1>
                 <div className="text-start">
-                  <div className="mb-5">
-                    <h1 className="text-xl font-bold underline">Md Jubayer</h1>
+                  <div className="mb-5 text-xs md:text-base">
+                    <h1 className="text-lg md:text-xl font-bold underline">Md Jubayer</h1>
                     <li className="mt-2">
                       <span className="font-bold">Age: </span>
                       {age} years
@@ -231,8 +231,8 @@ function Home({ handleScroll }) {
                       Stack Development (MongoDB, Express.js, React, Node.js)
                     </li>
                   </div>
-                  <div className="mb-5">
-                    <h1 className="text-xl font-bold underline">
+                  <div className="mb-5 text-xs md:text-base">
+                    <h1 className="text-lg md:text-xl font-bold underline">
                       Core Skills:
                     </h1>
                     <li className="mt-2">
@@ -251,8 +251,8 @@ function Home({ handleScroll }) {
                       Proficient in using react-icons for skill iconography
                     </li>
                   </div>
-                  <div className="mb-5">
-                    <h1 className="text-xl font-bold underline">
+                  <div className="mb-5 text-xs md:text-base">
+                    <h1 className="text-lg md:text-xl font-bold underline">
                       Development Approach:
                     </h1>
                     <li className="mt-2">
@@ -269,7 +269,7 @@ function Home({ handleScroll }) {
                   </div>
                 </div>
                 <h1 className="text-xl font-bold pt-5 underline">Summary</h1>
-                <p className="p-4">
+                <p className="p-4 text-xs md:text-base">
                   Md Jubayer here! I’m a 19-year-old MERN stack developer with a
                   strong 3 years of hands-on experience in building dynamic web
                   applications. I’m skilled in MongoDB, Express.js, React, and
