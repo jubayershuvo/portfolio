@@ -217,7 +217,9 @@ function Home({ handleScroll }) {
                 </h1>
                 <div className="text-start">
                   <div className="mb-5 text-xs md:text-base">
-                    <h1 className="text-lg md:text-xl font-bold underline">Md Jubayer</h1>
+                    <h1 className="text-lg md:text-xl font-bold underline">
+                      Md Jubayer
+                    </h1>
                     <li className="mt-2">
                       <span className="font-bold">Age: </span>
                       {age} years
