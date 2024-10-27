@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 const AddProjectAdmin = () => {
+  const navigate = useNavigate()
   const [project, setProject] = useState({
     title: "",
     category: "",
@@ -42,6 +44,7 @@ const AddProjectAdmin = () => {
       console.log("Response:", response.data);
       setProject({ title: "", category: "", description: "", gitRepo: "" });
       setImageFile(null);
+      navigate('/admin')
     } catch (error) {
       setMessage("Failed to add project.");
       console.error("Error:", error);
