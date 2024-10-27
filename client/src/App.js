@@ -8,6 +8,9 @@ import { useCallback, useRef, useState } from "react";
 import Contact from "./clients/pages/Contact";
 import Services from "./clients/pages/Services";
 import Reviews from "./clients/pages/Reviews";
+import AdminNavbar from "./admin/AdminNav";
+import AdminLogin from "./admin/AdminLogin";
+import AddProject from "./admin/AddProject";
 
 function App() {
   return (
@@ -78,17 +81,10 @@ function AdminRouter() {
   return (
     <>
       <Routes>
-        {/* <Route path="/" element={<AdminNavbar />}>
-          <Route index element={<Dashboard />} />
-          <Route path="product/add" element={<AddProduct />} />
-          <Route path="customers" element={<CustomerListPage />} />
-          <Route path="products" element={<ProductList />} />
-          <Route path="order/:_id" element={<OrderDetails />} />
-          <Route path="orders" element={<OrderList />} />
-          <Route path="payments" element={<PaymentList />} />
-          <Route path="payment/:_id" element={<PaymentDetails />} />
+        <Route path="/" element={<AdminNavbar />}>
+          <Route path="project/add" element={<AddProject/>}></Route>
         </Route>
-        <Route path="login" element={<AdminLogin />} /> */}
+        <Route path="login" element={<AdminLogin />} />
       </Routes>
     </>
   );

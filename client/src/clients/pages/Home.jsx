@@ -20,7 +20,7 @@ function Home({ handleScroll }) {
       <div className="max-w-4xl mx-auto">
         <div
           onScroll={handleScroll}
-          className="h-screen md:p-4 custom-scrollbar overflow-y-scroll snap-y snap-mandatory space-y-4 scroll-smooth"
+          className="h-screen md:px-4 lg:px-0 custom-scrollbar overflow-y-scroll snap-y snap-mandatory space-y-4 scroll-smooth"
         >
           {/* Page 1 */}
           <section className="h-screen snap-start flex items-center justify-center">

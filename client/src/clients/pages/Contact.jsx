@@ -150,7 +150,7 @@ function Contact({handleScroll}) {
           <h1 className="text-2xl border-b-2 shadow-sm font-semibold text-white mb-6 inline-block mx-auto text-center justify-center">
             Contact Form
           </h1>
-          <div className="space-y-4">
+          <div className="space-y-4 text-white">
             <div className="block">
               <label
                 htmlFor="name"
@@ -161,7 +161,7 @@ function Contact({handleScroll}) {
               <input
                 id="name"
                 type="text"
-                className="w-full px-4 shadow-sm border-t-0 border-white shadow-white py-2 text-gray-800 bg-transparent rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full text-white px-4 shadow-sm border-t-0 border-white shadow-white py-2 bg-transparent rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
             <div className="block">
@@ -174,7 +174,7 @@ function Contact({handleScroll}) {
               <input
                 id="email"
                 type="email"
-                className="w-full px-4 shadow-sm border-t-0 border-white shadow-white py-2 text-gray-800 bg-transparent rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-4 shadow-sm border-t-0 border-white shadow-white py-2 bg-transparent rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
             <div className="block">
@@ -187,7 +187,7 @@ function Contact({handleScroll}) {
               <input
                 id="phone"
                 type="tel"
-                className="w-full px-4 shadow-sm border-t-0 border-white shadow-white py-2 text-gray-800 bg-transparent rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-4 shadow-sm border-t-0 border-white shadow-white py-2 bg-transparent rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
             <div className="block">
@@ -199,7 +199,7 @@ function Contact({handleScroll}) {
               </label>
               <textarea
                 id="message"
-                className="w-full px-4 shadow-sm border-t-0 border-white shadow-white py-2 text-gray-800 bg-transparent rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-4 shadow-sm border-t-0 border-white shadow-white py-2 bg-transparent rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 rows="4"
               ></textarea>
             </div>
