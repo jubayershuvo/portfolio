@@ -7,7 +7,8 @@ import { Provider } from 'react-redux';
 import { store } from './store/store';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://localhost:8080/api';
+// axios.defaults.baseURL = 'http://localhost:8080/api';
+axios.defaults.baseURL = 'https://portfolio-server-md-jubayer.vercel.app/api';
 axios.defaults.withCredentials = true;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,7 +18,5 @@ root.render(
   </Provider>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
 reportWebVitals();
